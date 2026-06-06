@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #fff8f6;
+  --color-surface-dim: #ecd6cb;
+  --color-surface-bright: #fff8f6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fff1eb;
+  --color-surface-container: #ffeae0;
+  --color-surface-container-high: #fae4d9;
+  --color-surface-container-highest: #f4ded4;
+  --color-on-surface: #241913;
+  --color-on-surface-variant: #4d4635;
+  --color-tertiary: #7b5648;
+  --color-on-tertiary-container: #5f3d30;
+  --color-blush-pink: #F9CFCB;
+  --color-antique-gold: #D4AF37;
+
+  --font-sans: "Montserrat", sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-script: "Alex Brush", cursive;
+
+  --spacing-margin-desktop: 80px;
+  --spacing-container-max: 1280px;
+}
+
+@utility luxury-shadow {
+  box-shadow: 0 10px 30px rgba(107, 91, 83, 0.05);
+}
+
+@utility script-flourish {
+  position: relative;
+  display: inline-block;
+}
+
+.script-flourish::after {
+  content: ' ♡';
+  font-family: var(--font-script);
+  font-size: 0.8em;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-surface font-sans text-on-surface antialiased;
+}
