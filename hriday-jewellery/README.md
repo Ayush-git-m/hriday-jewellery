@@ -4,7 +4,7 @@ Premium imitation jewellery website featuring bridal sets, earrings, bangles, br
 
 ## Live Website
 
-Visit: https://your-vercel-url.vercel.app
+Visit: (https://hriday-jewellery-ly88.vercel.app/)
 
 ## Features
 
