@@ -33,7 +33,7 @@ export function Gallery() {
           <div className="rounded-2xl overflow-hidden luxury-shadow bg-surface-container-lowest flex">
             {/* The provided composite image serves perfectly as a visual layout of 5 vertical strips */}
             <img
-              src="https://lh3.googleusercontent.com/aida/AP1WRLtKdq1sdAv5qxzC-rbojmykPY0EPxo34lSmRh-A0nTXg0XBTFkzAMatNKLozKMJ3og8uRbeeTRgzlK6_1AEIrYwFG8-IqiIewigJ_Zmos9VyPxul6c6RcHn2jYcETIAVwJ6j6vqbT8ZTPMm0pzxnYFExh2caRwDgwEfPaPYPYDixBKzeJ6D3yZItiWezEQIy91SXyg8p3uZ2IiljJ8K0DaUxO135XEA6C7qIaUss4HBw1TavXRLkv58Tmk"
+              src="https://lh3.googleusercontent.com/pw/AP1GczOOpOiOONdfvoofngoQ8MGawjouOnwZpZARfC69oHwuHAHAQ4zo3A4hIkiO7WeUF_ksFer4ZTRlAqbERK4pcYprMMQ2zzOETewZQA-bYXpCx8j658A=s1080"
               alt="Jewellery Gallery Multi View"
               className="w-full h-auto min-h-[400px] object-cover hover:scale-105 transition-transform duration-700"
             />

@@ -1,6 +1,6 @@
 async function getImageUrl() {
   try {
-    const res = await fetch('https://photos.app.goo.gl/mj2awaEu8qGfg1Qw9');
+    const res = await fetch('https://photos.app.goo.gl/oR24cjqfPMVzAaDMA');
     const text = await res.text();
     const match = text.match(/<meta property="og:image" content="(.*?)"/);
     if (match) {
