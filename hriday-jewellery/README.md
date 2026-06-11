@@ -1,22 +1,20 @@
-# Hriday Gallery
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-Premium imitation jewellery website featuring bridal sets, earrings, bangles, bracelets, watches, and designer collections.
+# Run and deploy your AI Studio app
 
-## Live Website
+This contains everything you need to run your app locally.
 
-Visit: (https://hriday-jewellery-ly88.vercel.app/)
+View your app in AI Studio: https://ai.studio/apps/dba44f88-99f8-4fb9-b5bb-d5fe6abd6c07
 
-## Features
+## Run Locally
 
-- Elegant luxury design
-- Responsive layout
-- Product collections
-- Gallery showcase
-- WhatsApp contact integration
+**Prerequisites:**  Node.js
 
-## Built With
 
-- React
-- TypeScript
-- Vite
-- Vercel
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

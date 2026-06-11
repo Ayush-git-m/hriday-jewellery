@@ -30,12 +30,12 @@ export function Gallery() {
           viewport={{ once: true }}
           className="w-full md:w-2/3"
         >
-          <div className="rounded-2xl overflow-hidden luxury-shadow bg-surface-container-lowest flex">
+          <div className="rounded-2xl overflow-hidden luxury-shadow bg-surface-container-lowest block w-full relative aspect-[4/5] sm:aspect-video md:aspect-[3/2] lg:aspect-[21/9]">
             {/* The provided composite image serves perfectly as a visual layout of 5 vertical strips */}
             <img
               src="https://lh3.googleusercontent.com/pw/AP1GczOOpOiOONdfvoofngoQ8MGawjouOnwZpZARfC69oHwuHAHAQ4zo3A4hIkiO7WeUF_ksFer4ZTRlAqbERK4pcYprMMQ2zzOETewZQA-bYXpCx8j658A=s1080"
               alt="Jewellery Gallery Multi View"
-              className="w-full h-auto min-h-[400px] object-cover hover:scale-105 transition-transform duration-700"
+              className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
         </motion.div>
